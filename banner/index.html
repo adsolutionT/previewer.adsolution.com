@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<script type="text/javascript"  src="https://richmedia.cdnservices.net/adtech/lib/ADTECH_1_13_4.js"></script> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<style>
+	body{		
+		margin: 0;
+      	cursor: pointer;
+		padding: 0;
+	}
+	#holder{
+		width:980px;
+		height:480px;
+		background-image:url(background.jpg);
+		background-size:cover;
+		background-repeat:no-repeat;
+		overflow:hidden;
+	}
+	</style>
+</head>
+<body>
+	<div id="holder"></div>
+	
+  <script>
+  	document.body.onclick = function(){
+		ADTECH.click('main','');
+    }
+  </script>
+
+</body>
+</html>
